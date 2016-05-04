@@ -38,6 +38,11 @@ public class School {
 				JOptionPane.showMessageDialog(frame, prev_maths>= 51 && prev_maths <= 59 ?  LearnerName +  "\nwelcome to Agricultural and History stream here are your new subjects: "
 						+ "\nMaths Literacy" + "\nAgricultural Sciences" + "\nGeography" + "\nGeography": "consider other streams because your marks are low" );  
 				break;
+			case "arts":
+				JOptionPane.showMessageDialog(frame, prev_maths>= 51 && prev_maths <= 59 ?  LearnerName +  "\nwelcome to Agricultural and History stream here are your new subjects: "
+						+ "\nEnglish" + "\nMusic" + "\nDrama" + "\nPoetry": "consider other streams because your marks are low" );  
+				break;
+				
 				
 			}
 		    
